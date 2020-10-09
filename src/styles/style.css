@@ -8,6 +8,9 @@ body {
     line-height: 1.6em;
     color: #2a2626;
 }
+.block::before {
+    content: url(images/background.png);
+}
 h1 {
     line-height: 1.2em;
     font-size: 72px;
