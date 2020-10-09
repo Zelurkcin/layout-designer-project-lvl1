@@ -1,1 +1,28 @@
 /** CSS STYLE **/
+body {
+    width: 1110px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2a2626;
+}
+h1 {
+    line-height: 1.2em;
+    font-size: 72px;
+    font-family: Neucha;}
+h2 {
+    line-height: 1.2em;
+    font-size: 60px;
+    font-family: Neucha;}    
+}
+h3 {
+    line-height: 1.2em;
+    font-size: 34px;
+    font-family: Neucha;}
+}
+
+.line_spacing {
+    
+}
