@@ -87,9 +87,44 @@ body {
 iframe {
     
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 30px;
+  margin-bottom: -100px;
   
+}
+.frame-dark {
+  
+  display: flex;
+  flex-wrap: wrap;
+  background: #42413C;
+  width: 1210px;
+  padding-top: 200px;
+  padding-bottom: 100px;
+
+}
+.title {
+  position: relative;  
+  width: 350px;
+  height: 310px;
+  margin: 24px;
+  padding:0;
+}
+.card {
+ 
+
+  width: 302px;
+  height: 310px;
+  background: #F5F4F0;
+  margin: 24px;
+  padding: 24px;
+ 
+}
+.numbers {
+  margin-bottom: 40px;
+  font-size: 64px;
+  font-family: Neucha;
+  line-height: 1;
+  color: #42413C;
+
 }
 h1 {
     
@@ -107,11 +142,20 @@ h2 {
   line-height: 1.2em;
   font-size: 60px;
   font-family: Neucha;
-  margin-bottom: 30px;    
+   
 }
+
 h3 {
   line-height: 1.2em;
   font-size: 34px;
-  font-family: Neucha;}
+  font-family: Neucha;
 }
+h4 {
+  position: absolute;
+  top: 0;
+  line-height: 1.2em;
+  font-size: 52px;
+  font-family: Neucha;
+}
+
 
