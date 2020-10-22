@@ -21,6 +21,7 @@
 section {
   position: absolute;
   top: 0;
+  margin: 0 auto;
   width: 1110px;
   
   
@@ -38,6 +39,11 @@ body {
   font-size: 16px;
   line-height: 1.6em;
   color: #2a2626;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+
 }
 
 .block-text-left  {
@@ -95,30 +101,33 @@ iframe {
   
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   background: #42413C;
   width: 1210px;
-  padding-top: 200px;
-  padding-bottom: 100px;
+  padding: 200px 0px 100px 0px;
 
 }
 .title {
-  position: relative;  
+  
   width: 350px;
   height: 310px;
-  margin: 24px;
-  padding:0;
+  margin-top: -65px;
+  margin-right: 24px;
+   
 }
 .card {
  
-
   width: 302px;
   height: 310px;
   background: #F5F4F0;
-  margin: 24px;
   padding: 24px;
+  margin-bottom: 14px;
+  margin-right: 24px;
+   
  
 }
 .numbers {
+
   margin-bottom: 40px;
   font-size: 64px;
   font-family: Neucha;
@@ -151,11 +160,15 @@ h3 {
   font-family: Neucha;
 }
 h4 {
-  position: absolute;
-  top: 0;
+ 
   line-height: 1.2em;
   font-size: 52px;
   font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+
 }
 
 
