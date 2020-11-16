@@ -142,7 +142,9 @@ iframe {
   margin-right: 24px;
    
 }
+
 .card {
+  display: block;
   position: relative;
   width: 302px;
   height: 310px;
@@ -156,14 +158,25 @@ iframe {
 .card:hover {
   background: #FE8A02;
   color: #fff;
- 
 }
+.card:hover h3  {
+  background: #FE8A02;
+  color: #fff;
+  
+ }
+
+ .card:hover .numbers {
+  background: #FE8A02;
+  color: #fff;
+ }
 .card a {
   display: block;
   position: absolute;
   top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
+ 
 }
 .numbers {
 
@@ -174,12 +187,6 @@ iframe {
   color: #42413C;
 
 }
-.numbers:hover {
-    color: #fff;
-    height: 100%;
-}
-
-
 
 
 
@@ -235,9 +242,12 @@ h2 {
   font-family: Neucha;
  }
 h3 {
+ 
   line-height: 1.2em;
   font-size: 34px;
   font-family: Neucha;
+  color: #FE8A02;
+  
 }
 .h3-text-right {
   position: absolute;
