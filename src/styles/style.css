@@ -302,6 +302,7 @@ h4 {
 .manifestation {
   position: absolute;
   top: 477px;
+  font-weight: bold;
   color: #fff;
   background: #B09A81;
   width: 100%;
@@ -309,6 +310,7 @@ h4 {
 .manifestation_white {
   position: absolute;
   top: 477px;
+  font-weight: bold;
   color: #42413C;
   background: #ffffff;
   width: 100%;
