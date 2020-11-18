@@ -317,3 +317,112 @@ h4 {
   margin-top: 84px; 
   margin-bottom: 20px;
 }
+.session-dark-footer {
+display: flex;
+position: relative;
+align-items: center;
+  background: #42413C;
+  width: 1110px;
+  height: 200px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.h_footer {
+ 
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Neucha;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 43px;
+letter-spacing: 0em;
+text-align: left;
+width: 540px;
+
+
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+
+ display: flex;
+  height: 18px;
+  width: 400px;
+  margin: 15px 0px 15px 0;
+  padding: 15px;
+  font-size: 18px;;
+  color: #000000;
+  border-radius: 0;
+  border: 1px solid #E3E3E3;
+  
+}
+
+.btn_send_msg {
+ display:flex;
+ justify-content: center;
+ align-items: center;
+  background: #FE8A02;
+ width: 70px;
+height: 50px;
+  border: 0;
+  padding: 0;
+
+
+}
+.btn_send_msg::before {
+  content: url(../images/send.svg);
+  
+  }
+.btn_send_msg:hover {
+  background: #EA7600;
+  
+
+}
+.block_footer_right {
+  
+  display: flex;
+  flex-direction: column;
+  
+  position: absolute;
+  
+  align-items: flex-start; 
+  /* top: 50px; */
+  left: 555px;
+  /* margin-left: 15px; */
+  
+} 
+.h_footer_1 {
+
+  font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+margin: 0;
+
+}
+.rule_service {
+  font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.contact {
+    
+  
+   
+    margin-top: -100px;
+}
