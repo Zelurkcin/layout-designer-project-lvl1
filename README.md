@@ -17,3 +17,4 @@ $ make install
 ```sh
 make lint
 ```
+http://cognitive_biases_zel.surge.sh/
