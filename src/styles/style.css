@@ -22,6 +22,7 @@ body {
   padding: 100px 0 100px 0;
   
   
+  
 }
 
 .frame-with-background::before {
@@ -38,8 +39,6 @@ section {
   flex-wrap: wrap;
   max-width: 1110px;
   /* margin: 0 0 100px 0; */
-  
-  
 }
 
 header {
@@ -161,8 +160,9 @@ iframe {
   background: #fe8a02;
 }
 
+/* привести внешний вид к шаблону, чтобы вошли все карточки */
 .card p {
-  margin-top: 8px;
+  margin-top: 8px; 
   margin-bottom:  0;
 }
 
@@ -176,7 +176,7 @@ h3 {
 }
 .picture {
   width: 540px;
-  height: 405px;
+  /* height: 405px; */
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -204,7 +204,7 @@ h2 {
   color: #2a2626;
 }
 
-h4 {
+.topic {
   margin: 0;
   color: #fff;
   font-weight: 400;
