@@ -96,7 +96,6 @@ iframe {
 .frame-dark {
   display: flex;
   justify-content: center;
-  /* align-content: center;   */
   width: 1440px;
   height: 678px;
   padding: 200px 0 100px 0;
@@ -111,9 +110,9 @@ iframe {
   height: 678px;
 }
 
-.title {
+/* .title {
   width: 350px;
-}
+} */
 
 .card {
   width: 302px;
