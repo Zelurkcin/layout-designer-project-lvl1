@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   width: 1440px;
-  /* height: 805px; */
+  height: 705px;
   margin: 0 auto;
   padding: 100px 0 100px 0;
   
@@ -43,7 +43,7 @@ section {
 }
 
 header {
-  height: 525px;
+  height: 555px;
 }
 .highlighting {
   color: #fe8a02;
@@ -82,7 +82,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 100px;
+  margin-top: 100px;
 }
 
 .frame-no-background h2 {
@@ -170,13 +170,12 @@ iframe {
 
 h3 {
   margin: 0;
-  /* color: #fe8a02; */
   font-size: 34px;
   font-family: 'Neucha', cursive;
+  font-weight: normal;
   line-height: 1.2em;
 }
 .picture {
-  /* display: flex; */
   width: 540px;
   height: 405px;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
@@ -184,10 +183,10 @@ h3 {
 
 
 h1 {
-  /* margin-top: 155px; */
   margin-top: 155px;
   font-size: 72px;
   font-family: 'Neucha', cursive;
+  font-weight: normal;
   line-height: 1.2em;
 }
 
@@ -195,6 +194,7 @@ h2 {
   margin-top: 0;
   font-size: 60px;
   font-family: 'Neucha', cursive;
+  font-weight: normal;
   line-height: 1.2em;
 }
 .frame-with-background h2 {
@@ -218,7 +218,6 @@ h4 {
 }
 
 .title-right {
-  /* margin-left: 30px; */
   color: #908d8b;
   font-size: 24px;
   font-family: 'Neucha', cursive;
@@ -231,7 +230,7 @@ h4 {
   display: flex;
   justify-content: center;
   width: 1440px;
-  height: 805px;
+  height: 705px;
   color: #fff;
   background: #b09a81;
   margin:  0 auto;
@@ -252,7 +251,7 @@ h4 {
 .frame-with-background-dark div {
   width: 540px;
 }
-.frame-with-background-dark:last-child {
+.frame-with-background-dark div:last-child {
   margin-left: 30px;
 }
 
@@ -269,7 +268,6 @@ h4 {
 
 
 .manifestation {
-  
   width: 100%;
   margin-top: 84px; /* так как у тени margin 16px */
   margin-bottom: 20px;
@@ -279,7 +277,6 @@ h4 {
 }
 
 .manifestation-white {
-  /* position: absolute; */
   width: 100%;
   margin-top: 84px;
   margin-bottom: 20px;
@@ -289,7 +286,6 @@ h4 {
 }
 
 .session-dark-footer {
-  /* position: relative; */
   display: flex;
   align-items: center;
   width: 1110px;
@@ -352,8 +348,6 @@ input {
 }
 
 .block-footer-right {
-  /* position: absolute;
-  left: 555px; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
