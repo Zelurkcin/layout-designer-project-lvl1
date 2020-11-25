@@ -140,12 +140,12 @@ iframe {
   color: #2a2626;
 }
 
-.card:hover {
+.card:hover, .card:hover .numbers, .card:hover h3, .card:hover a {
   color: #fff;
   background: #fe8a02;
 }
 
-.card:hover .numbers {
+/* .card:hover .numbers {
   color: #fff;
   background: #fe8a02;
 }
@@ -158,7 +158,7 @@ iframe {
 .card:hover a {
   color: #fff;
   background: #fe8a02;
-}
+} */
 
 /* привести внешний вид к шаблону, чтобы вошли все карточки */
 .card p {
