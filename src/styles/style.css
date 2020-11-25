@@ -20,9 +20,6 @@ body {
   height: 705px;
   margin: 0 auto;
   padding: 100px 0 100px 0;
-  
-  
-  
 }
 
 .frame-with-background::before {
@@ -30,7 +27,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 10%;
-  
 }
 
 section {
@@ -38,22 +34,24 @@ section {
   display: flex;
   flex-wrap: wrap;
   max-width: 1110px;
-  /* margin: 0 0 100px 0; */
 }
 
 header {
   height: 555px;
 }
+
 .highlighting {
   color: #fe8a02;
 }
+
 .main-picture {
   position: absolute;
   top: 55px;
   right: -270px;
-  height: 525px;
   z-index: -1;
+  height: 525px;
 }
+
 .frame-with-background div {
   width: 540px;
 }
@@ -62,7 +60,7 @@ header {
   margin-left: 30px;
 }
 
- .btn {
+.btn {
   padding: 12px 24px 12px 24px;
   color: #fff;
   font-weight: bold;
@@ -78,15 +76,23 @@ header {
 .frame-no-background {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
   margin-top: 100px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 60px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
 }
 
 .frame-no-background h2 {
   margin-bottom: 30px;
 }
+
 iframe {
   margin-bottom: -100px;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
@@ -97,9 +103,9 @@ iframe {
   justify-content: center;
   width: 1440px;
   height: 678px;
+  margin: 0 auto;
   padding: 200px 0 100px 0;
   background: #42413c;
-  margin: 0 auto;
 }
 
 .frame-dark section {
@@ -109,102 +115,8 @@ iframe {
   height: 678px;
 }
 
-/* .title {
-  width: 350px;
-} */
-
-.card {
-  width: 302px;
-  padding: 24px;
-  background: #f5f4f0;
-  color: #2a2626;
-}
-
-.numbers {
-  margin-bottom: 40px;
-  color: #42413c;
-  font-size: 64px;
-  font-family: 'Neucha', cursive;
-  line-height: 1;
-}
-
-.card h3 {
-  color: #fe8a02;
-}
-
-.card a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  color: #2a2626;
-}
-
-.card:hover, .card:hover .numbers, .card:hover h3, .card:hover a {
-  color: #fff;
-  background: #fe8a02;
-}
-
-/* .card:hover .numbers {
-  color: #fff;
-  background: #fe8a02;
-}
-
-.card:hover h3 {
-  color: #fff;
-  background: #fe8a02;
-}
-
-.card:hover a {
-  color: #fff;
-  background: #fe8a02;
-} */
-
-/* привести внешний вид к шаблону, чтобы вошли все карточки */
-.card p {
-  margin-top: 8px; 
-  margin-bottom:  0;
-}
-
-
-h3 {
-  margin: 0;
-  font-size: 34px;
-  font-family: 'Neucha', cursive;
-  font-weight: normal;
-  line-height: 1.2em;
-}
-.picture {
-  width: 540px;
-  /* height: 405px; */
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-}
-
-
-h1 {
-  margin-top: 155px;
-  font-size: 72px;
-  font-family: 'Neucha', cursive;
-  font-weight: normal;
-  line-height: 1.2em;
-}
-
-h2 {
-  margin-top: 0;
-  font-size: 60px;
-  font-family: 'Neucha', cursive;
-  font-weight: normal;
-  line-height: 1.2em;
-}
-.frame-with-background h2 {
-  color: #2a2626;
-}
-
-.frame-with-background h3 {
-  color: #2a2626;
-}
-
 .topic {
+  width: 350px;
   margin: 0;
   color: #fff;
   font-weight: 400;
@@ -216,24 +128,106 @@ h2 {
   text-align: left;
 }
 
-.title-right {
-  color: #908d8b;
+.card {
+  width: 302px;
+  padding: 24px;
+  color: #2a2626;
+  background: #f5f4f0;
+}
+
+.numbers {
+  margin-bottom: 40px;
+  color: #42413c;
+  font-size: 64px;
+  font-family: 'Neucha', cursive;
+  line-height: 1;
+}
+
+h3 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 34px;
+  font-family: 'Neucha', cursive;
+  font-style: normal;
+  line-height: 1.2em;
+}
+
+.card h3 {
+  color: #fe8a02;
+}
+
+.card a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #2a2626;
+  text-decoration: none;
+}
+
+/* Чтобы было расстояние между картами и размеры соответствовали шаблону */
+.card p {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.frame-with-background h3 {
+  color: #2a2626;
+}
+
+.card:hover,
+.card:hover .numbers,
+.card:hover h3,
+.card:hover a {
+  color: #fff;
+  background: #fe8a02;
+}
+
+.picture {
+  width: 540px;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+h1 {
+  margin-top: 155px;
+  font-weight: normal;
+  font-size: 72px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+}
+
+.frame-with-background h2 {
+  color: #2a2626;
+}
+
+.title,
+.right,
+.left {
   font-size: 24px;
   font-family: 'Neucha', cursive;
   line-height: 1.2em;
 }
+
+.right {
+  color: #908d8b;
+}
+
+.left {
+  color: #fff;
+}
+
 .frame-with-background .picture {
   margin-right: 30px;
 }
+
 .frame-with-background-dark {
   display: flex;
   justify-content: center;
   width: 1440px;
-  height: 705px;
+  height: 705px;/*  слишком длинные секции-укоротил */
+  margin: 0 auto;
+  padding: 100px 0 100px 0;
   color: #fff;
   background: #b09a81;
-  margin:  0 auto;
-  padding: 100px 0 100px 0;
 }
 
 .frame-with-background-dark::before {
@@ -250,21 +244,10 @@ h2 {
 .frame-with-background-dark div {
   width: 540px;
 }
+
 .frame-with-background-dark div:last-child {
   margin-left: 30px;
 }
-
-
-
-.title-left {
-  
-  margin: 0;
-  color: #fff;
-  font-size: 24px;
-  font-family: 'Neucha', cursive;
-  line-height: 1.2em;
-}
-
 
 .manifestation {
   width: 100%;
@@ -294,12 +277,18 @@ h2 {
   background: #42413c;
 }
 
-.h-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.session-dark-footer div {
   width: 540px;
+  
+}
+.session-dark-footer div:last-child {
+  margin-left: 30px;
+}
+
+.h-footer {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
   font-weight: 400;
   font-size: 36px;
   font-family: 'Neucha', cursive;
@@ -307,24 +296,36 @@ h2 {
   line-height: 43px;
   letter-spacing: 0;
   text-align: left;
+  }
+
+.block-footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.h-footer-1 {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Open Sans', 'Segoe', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  line-height: 29px;
+  letter-spacing: 0;
 }
 
 form {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 input {
-  display: flex;
   width: 400px;
-  height: 18px;
-  margin: 15px 0 15px 0;
+  height: 18px; /* чтобы размер совпал с кнопкой */
   padding: 15px;
   color: #000;
   font-size: 18px;
   border: 1px solid #e3e3e3;
   border-radius: 0;
+  
 }
 
 .btn-send-msg {
@@ -346,21 +347,9 @@ input {
   background: #ea7600;
 }
 
-.block-footer-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.h-footer-1 {
-  margin: 0;
-  font-weight: 700;
-  font-size: 18px;
-  font-family: 'Open Sans', 'Segoe', 'Helvetica Neue', sans-serif;
-  font-style: normal;
-  line-height: 29px;
-  letter-spacing: 0;
-  text-align: left;
+.block-footer-right p {
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .rule-service {
@@ -370,9 +359,12 @@ input {
   font-style: normal;
   line-height: 19px;
   letter-spacing: 0;
-  text-align: left;
-}
+ }
+ 
+ .rule-service a {
+   color: #fff;
+ }
 
 .contact {
-  margin-top: -100px;
+  margin-top: -100px; /* убрать margin наследуемый от frame-no-background */
 }
