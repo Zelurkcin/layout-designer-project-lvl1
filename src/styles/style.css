@@ -160,8 +160,15 @@ h3 {
   color: #2a2626;
   text-decoration: none;
 }
-
-.frame-with-background h3 {
+.description {
+  margin: 0;
+  font-weight: normal;
+  font-size: 34px;
+  font-family: 'Neucha', cursive;
+  font-style: normal;
+  line-height: 1.2em;
+}
+.frame-with-background .description {
   color: #2a2626;
 }
 
