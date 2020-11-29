@@ -2,6 +2,7 @@
 
 body {
   margin-top: -100px;
+  overflow-x: hidden;
   color: #2a2626;
   font-weight: 400;
   font-size: 16px;
@@ -10,7 +11,6 @@ body {
   line-height: 1.6em;
   letter-spacing: 0;
   text-align: left;
-  overflow-x: hidden;
 }
 
 .frame-with-background {
@@ -160,6 +160,7 @@ h3 {
   color: #2a2626;
   text-decoration: none;
 }
+
 .description {
   margin: 0;
   font-weight: normal;
@@ -168,6 +169,7 @@ h3 {
   font-style: normal;
   line-height: 1.2em;
 }
+
 .frame-with-background .description {
   color: #2a2626;
 }
@@ -271,10 +273,10 @@ h1 {
 .session-dark-footer {
   display: flex;
   align-items: center;
-  width: 1110px;
   box-sizing: border-box;
-  padding: 50px;
+  width: 1110px;
   margin-bottom: 60px;
+  padding: 50px;
   color: #fff;
   background: #42413c;
 }
@@ -298,7 +300,7 @@ h1 {
 }
 
 .block-footer-right {
-   text-align: start;
+  text-align: start;
 }
 
 .h-footer-1 {
@@ -316,14 +318,13 @@ form {
 
 input {
   flex-grow: 2;
+  box-sizing: border-box;
   height: 50px;
   padding: 15px;
   color: #000;
   font-size: 18px;
   border: 1px solid #e3e3e3;
   border-radius: 0;
-  box-sizing: border-box;
-  
 }
 
 .btn-send-msg {
