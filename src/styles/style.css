@@ -1,16 +1,16 @@
 /** CSS STYLE **/
+.m-0 {
+  margin: 0;
+}
 
 body {
-  margin-top: -100px;
   overflow-x: hidden;
-  color: #2a2626;
   font-weight: 400;
   font-size: 16px;
   font-family: 'Open Sans', 'Segoe', 'Helvetica Neue', sans-serif;
   font-style: normal;
   line-height: 1.6em;
   letter-spacing: 0;
-  text-align: left;
 }
 
 .frame-with-background {
@@ -23,8 +23,6 @@ body {
   width: 100%;
   height: 100%;
   background-image: url('../images/background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
   opacity: 10%;
   content: '';
 }
@@ -53,24 +51,26 @@ header {
   height: 525px;
 }
 
-.frame-with-background div {
-  width: 540px;
+.bg-f {
+  padding-bottom: 100px;
+  background-color: #f5f4f0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
 }
 
-.frame-with-background div:last-child {
+.ml-30 {
   margin-left: 30px;
 }
 
 .btn {
   padding: 12px 24px 12px 24px;
-  color: #fff;
   font-weight: bold;
   text-decoration: none;
   background: #fe8a02;
 }
 
 .btn:hover {
-  color: #fff;
   background: #ea7600;
 }
 
@@ -82,7 +82,7 @@ header {
   text-align: center;
 }
 
-h2 {
+.caption-60 {
   margin-top: 0;
   font-weight: normal;
   font-size: 60px;
@@ -94,9 +94,8 @@ h2 {
   margin-bottom: 30px;
 }
 
-iframe {
+.video {
   margin-bottom: -100px;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .frame-dark {
@@ -112,23 +111,22 @@ iframe {
 }
 
 .topic {
-  width: 350px;
-  margin: 20px 0 0 0;
-  color: #fff;
+  box-sizing: border-box;
+  width: 31.5%;
+  margin-top: 20px;
   font-weight: 400;
   font-size: 52px;
   font-family: 'Neucha', cursive;
   font-style: normal;
   line-height: 1.2em;
   letter-spacing: 0;
-  text-align: left;
 }
 
 .card {
-  width: 302px;
+  box-sizing: border-box;
+  width: 31.5%;
   margin-top: 20px;
   padding: 24px;
-  color: #2a2626;
   background: #f5f4f0;
 }
 
@@ -140,8 +138,7 @@ iframe {
   line-height: 1;
 }
 
-h3 {
-  margin: 0;
+.caption-34 {
   font-weight: normal;
   font-size: 34px;
   font-family: 'Neucha', cursive;
@@ -157,8 +154,11 @@ h3 {
   display: block;
   width: 100%;
   height: 100%;
-  color: #2a2626;
   text-decoration: none;
+}
+
+.c-vdr {
+  color: #2a2626;
 }
 
 .description {
@@ -170,14 +170,6 @@ h3 {
   line-height: 1.2em;
 }
 
-.frame-with-background .description {
-  color: #2a2626;
-}
-
-.rule-service a {
-  color: #fff;
-}
-
 .card:hover,
 .card:hover .numbers,
 .card:hover h3,
@@ -186,8 +178,7 @@ h3 {
   background: #fe8a02;
 }
 
-.picture {
-  width: 540px;
+.shadow {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -199,33 +190,26 @@ h1 {
   line-height: 1.2em;
 }
 
-.frame-with-background h2 {
-  color: #2a2626;
-}
-
-.title,
-.right,
-.left {
+.title {
   font-size: 24px;
   font-family: 'Neucha', cursive;
   line-height: 1.2em;
 }
 
-.right {
+.c-dgo {
   color: #908d8b;
 }
 
-.left {
+.c-fff {
   color: #fff;
 }
 
-.frame-with-background .picture {
+.mr-30 {
   margin-right: 30px;
 }
 
 .frame-with-background-dark {
   padding: 100px 0 100px 0;
-  color: #fff;
   background: #b09a81;
 }
 
@@ -234,39 +218,30 @@ h1 {
   width: 100%;
   height: 100%;
   background-image: url('../images/background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
   opacity: 10%;
   content: '';
 }
 
-.frame-with-background-dark .picture {
-  margin-left: 30px;
-}
-
-.frame-with-background-dark div {
-  width: 540px;
-}
-
-.frame-with-background-dark div:last-child {
-  margin-left: 30px;
+.w-50p {
+  width: calc(50% - 15px);
 }
 
 .manifestation {
   width: 100%;
   margin-top: 100px;
   margin-bottom: 20px;
-  color: #fff;
+}
+
+.manifestation-dark {
   font-weight: bold;
+  text-transform: uppercase;
   background: #b09a81;
 }
 
 .manifestation-white {
-  width: 100%;
-  margin-top: 100px;
-  margin-bottom: 20px;
   color: #42413c;
   font-weight: bold;
+  text-transform: uppercase;
   background: #fff;
 }
 
@@ -277,16 +252,7 @@ h1 {
   width: 1110px;
   margin-bottom: 60px;
   padding: 50px;
-  color: #fff;
   background: #42413c;
-}
-
-.session-dark-footer div {
-  width: 540px;
-}
-
-.session-dark-footer div:last-child {
-  margin-left: 30px;
 }
 
 .h-footer {
@@ -296,11 +262,10 @@ h1 {
   font-style: normal;
   line-height: 43px;
   letter-spacing: 0;
-  text-align: left;
 }
 
-.block-footer-right {
-  text-align: start;
+.ta-l {
+  text-align: left;
 }
 
 .h-footer-1 {
